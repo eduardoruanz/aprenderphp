@@ -1,0 +1,23 @@
+{
+    "name": "sistema/sistema",
+    "description": "Aprendendo composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "sistema\\": "sistema/"
+        },
+        "files": [
+            "./sistema/config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Eduardo Ruan"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "pecee/simple-router": "dev-master",
+        "twig/twig": "3.x-dev"
+    }
+}
